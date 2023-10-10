@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+}
+ul,
+li {
+  list-style: none;
+  font-size: 18px;
+}
+
+header {
+  display: flex;
+}
+nav,
+ol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+li {
+  margin: 0 10px;
+}
+.photos {
+  width: 90%;
+}
+.content-photos {
+  text-align: center;
+}
+footer {
+  background-color: black;
+  height: auto;
+  padding: 10px;
+}
+.text-footer {
+  color: white;
+  margin: 0;
+}
+
+@media screen and (max-width: 450px) {
+  header {
+    display: block;
+  }
+  ol {
+    display: block;
+  }
+  li {
+    width: 100%;
+    margin: 10px 10px;
+  }
+}
